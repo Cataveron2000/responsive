@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+  }
+  
+  
+  @media(max-width: 1600px){
+    body{
+      background-color: chartreuse;
+    }
+    .caja{
+        width: 50%;
+    }
+  }
+  
+  @media(max-width: 1200px){
+    body{
+      background-color: coral;
+    }
+    .caja{
+        width: 75%;
+
+    }
+  }
+  
+  @media(max-width: 500px){
+    body{
+      background-color: crimson;
+    }
+    .caja{
+        width: 100%;
+    }
+    p{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    .caja2{
+        display: none;
+    }
+  }
+
+  
